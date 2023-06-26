@@ -59,7 +59,7 @@ body {
   justify-content: center;
   flex-direction: column;
   background-color: var(--clr-primary-1);
-  background-image: url(/images/bg-mobile.svg);
+  background-image: url(./images/bg-mobile.svg);
   background-size: contain;
   background-repeat: no-repeat;
   line-height: 1.5;
@@ -119,7 +119,7 @@ button {
 }
 @media screen and (min-width: 48em) {
   body {
-    background-image: url(/images/bg-desktop.svg);
+    background-image: url(./images/bg-desktop.svg);
     background-size: cover;
     height: 100%;
   }
